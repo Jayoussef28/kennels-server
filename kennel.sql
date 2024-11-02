@@ -91,6 +91,7 @@ WHERE a.id = 2
 SELECT
     a.id,
     a.name,
-    a.address
+    a.address,
+    a.location_id
 FROM employee a
 WHERE a.id = 2
